@@ -1,0 +1,29 @@
+.title{
+    color: rgb(133, 156, 58);
+    font-weight:bold;
+    font-size: 30px;
+    font-family: "Graphik Black","Arial Black","Sans-Serif";
+}
+.pageWrapper{
+   height: 100%;
+   width: 100%;
+   margin: 0px !important;
+   border-left: inset 20px green;
+   border-right: inset 20px red;
+}
+.navBarLinks{            
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navBarLinks:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+.imgSize{
+    width: 40%;
+    height: 40%;
+}
+body{
+    margin: 0px !important;
+}

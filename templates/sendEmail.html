@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../static/css/styling.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    </head>
+    <body>
+        <center>
+            <div class = "pageWrapper">
+                <div class = "columns">
+                    <div class = "column is-6">
+                        <a href = "/" class = "navBarLinks">Home</a>
+                    </div>
+                    <div class = "column is-6">
+                        <a href = "/sendEmail" class = "navBarLinks">Send Email!</a>
+                    </div>
+                </div>
+                <hr/>
+                <h1 class = "title">
+                    SEND EMAIL
+                </h1>
+                <img class = "imgSize" src = "https://media.tenor.com/images/1bcfaadb7ed926566b25b16f256a5d1f/tenor.gif"/>  
+                <br/>
+                <form class = "box" action = "{{url_for('sendEmail1')}}">
+                    <div class = "field">
+                        <label class = "label">Email to Send to:</label>
+                        <input name = "email" class = "input"> 
+                    </div>
+                    <p class="control">
+                        <textarea name = "message" class="textarea" placeholder="Add a comment..."></textarea>
+                    </p>
+                    <button class = "button is-primary" type = "submit" value = "Submit">SUBMIT</button>
+                </form>                          
+            </div>            
+        </center>
+    </body>
+</html>
